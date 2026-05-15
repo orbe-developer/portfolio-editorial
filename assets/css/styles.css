@@ -485,6 +485,25 @@ section {
   color: #5a5a5a;
 }
 
+.project-card-link {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 1px solid var(--navy);
+  padding-bottom: 2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.project-card-link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 /* ── CONTACT ── */
 #contact {
   background: var(--charcoal);
